@@ -1,0 +1,67 @@
+
+#BlocPage
+
+{
+	
+	width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+header {
+
+	text-align: center;
+	width : 700px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+img 
+
+{
+	
+	overflow:hidden;
+	border-radius: 50%;
+	width: 600px;
+	height: 600px;
+	
+
+
+}
+
+#contenue
+
+{
+
+	border-top: 5px solid black;
+	
+}
+
+.box
+
+{
+	display: inline-block;
+	vertical-align: top
+
+
+}
+
+article
+{
+	
+	width: 800px;
+
+
+}
+
+nav
+{
+	border: 3px solid black;
+	margin-top: 4%;
+	width: 100px;
+	
+
+}
+
