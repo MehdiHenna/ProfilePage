@@ -1,24 +1,50 @@
-
-
-
-#BlocPage
+body
 
 {
+
+	font-family: 'Playfair Display', serif;
 	
-	width: 940px;
-	margin-left: auto;
-	margin-right: auto;
+}
+
+a 
+{
+
+	text-decoration: none;
+
 }
 
 
-header {
+#page
+{
 
+background-color: #FFF3E0;
+
+}
+
+
+
+#background
+{
+
+	width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#up 
+{
+	background-image: url(back.png);
+}
+
+header 
+
+{
 	text-align: center;
 	width : 700px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #FF6F00;
-
+	
 }
 
 img 
@@ -26,7 +52,6 @@ img
 {
 	
 	overflow:hidden;
-	border: 1px solid red;
 	border-radius: 50%;
 	width: 300px;
 	height: 300px;
@@ -40,21 +65,19 @@ img
 {
 
 	border-top: 5px solid black;
-	background-color: #FFE082;
-	width: 940px;
-	margin-left: auto;
-	margin-right: auto;
+	background-color: white;
+	
 }
 
-}
 
-h2#bio
+
+#bio
 
 {
 
-	display: inline;
+	text-align: center;
 	margin-bottom: 0px;
-	margin-top: 60px;
+	
 	
 }
 
@@ -62,9 +85,7 @@ h2#bio
 
 {
 	display: inline-block;
-	vertical-align: top
-
-
+	vertical-align: top;
 }
 
 article
@@ -105,5 +126,13 @@ li
 {
 
 	margin-bottom: 10px;
+
+}
+
+p
+
+{
+
+	margin-left: 10px;
 
 }
