@@ -1,0 +1,21 @@
+{
+  "name": "ProfilePage",
+  "version": "0.0.0",
+  "description": "Profile page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MehdiHenna/ProfilePage.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/MehdiHenna/ProfilePage/issues"
+  },
+  "dependencies": {
+    "mustache": "~2.2.1"
+  }
+}

@@ -10,7 +10,8 @@ a
 {
 
 	text-decoration: none;
-
+	border: 1px solid black;
+	padding-right: 10px;
 }
 
 
@@ -22,16 +23,6 @@ background-color: #FFF3E0;
 }
 
 
-
-#background
-{
-
-	width: 940px;
-	margin-left: auto;
-	margin-right: auto;
-
-}
-
 #up 
 {
 	background-image: url(back.png);
@@ -41,7 +32,7 @@ header
 
 {
 	text-align: center;
-	width : 700px;
+	width: 940px;
 	margin-left: auto;
 	margin-right: auto;
 	
@@ -63,7 +54,9 @@ img
 #contenue
 
 {
-
+	width: 940px;
+	margin-left: auto;
+	margin-right: auto;
 	border-top: 5px solid black;
 	background-color: white;
 	
@@ -134,5 +127,12 @@ p
 {
 
 	margin-left: 10px;
+
+}
+
+.texte
+{
+
+	display: none;
 
 }
