@@ -10,12 +10,13 @@
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	
 	<link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	
 	<script type="text/javascript" src="node_modules/mustache/mustache.js"></script>
 	
 	<script type="text/javascript" src="zepto.min.js"></script>
 	
-
+	
 	<script type="text/javascript" src="js/app.js"></script>
 	
 	
@@ -61,12 +62,15 @@
 								
 								<p id="badges" class="texte">Sit mirabilia pro implicari habere suarum nimis animus suarum quos audio quod argutiis): (sed habere sibi persequantur enim velis quos pro amicitiae esse amicitias habenas non mirabilia audio pluribus ne ad ad pro pluribus pro unum esse quod amicitiae beate esse argutiis): nimias enim placuisse quibusdam implicari argutiis): nihil in esse pluribus unus non ne unum persequantur mirabilia persequantur sibi adducas vel caput fugiendas non nimis esse molestum pro esse esse unum quaedam persequantur esse (sed velis velis qua securitatem esse esse persequantur quas nihil nimias si non habitos quos sollicitum tamquam persequantur nihil esse ne est unus ad pluribus.</p>
 								
-								<p id="contact" class="texte">Et transiturus Sannione agitant cuncta enim domi capitibus Sannione periculi dicitur familiarium voluptatum post praetermitto illuc cuncta ne ut calceis ne cuncta voragines ait civitatis opertis quos capitibus matronae capitibus publicos ne illuc equos sine quos quos varias transiturus ne transiturus post post equos longius illuc silices urbis periculi terga basternis cuncta terga terga per latera equos trahentes periculi praetermitto Sannione latera transiturus civitatis calceis ut dicitur terga ampla voragines comicus et cuncta opertis civitatis metu properantes basternis terga per quidam longius post longius post agmina agmina ampla relicto signatis subversasque quidem transiturus complures agmina ne silices quos per ut.</p>
-							
-							<div id="popup_name" class="popup_block">
 								
-								<p id="contact"><p>
+							
+							<div id="backModal" class="modalBox">
+								<div id="frontModal" class="modalBox">
+								<button id="croix" class="fa fa-times fa-3x"></button>
+										<h3>contact:</h3>
+										<p>{{contact.email}}</p>
 
+								</div>	
 							</div>
 
 							</article>
@@ -85,7 +89,8 @@
 									
 									<li><a href="#badges">Badges</a></li>
 
-									<li><a href="#contact" rel="popup_name" class="poplight">Contact</a></li>
+									<li>
+									<a href="#backModal" rel="popup_name" class="poplight">Contact</a></li>
 								
 								</ul>	
 								

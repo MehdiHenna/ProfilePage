@@ -23,10 +23,24 @@ $(document).ready(function(){
 
 		var id = $(this).attr('href');
 
-		$(id).toggle();
+		$(id).show();
 	
+		if(id == "#backModal"){
+
+			$(".modalBox").show();
+
+			$('button').on("click", function(){
+
+				$(".modalBox").hide();	
+
+			});
+
+		
+		}
 	});
 
+
+	
 
 });
 
