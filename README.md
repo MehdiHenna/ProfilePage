@@ -1,2 +1,2 @@
 # ProfilePage
-Profile page
+Page de profil perso
