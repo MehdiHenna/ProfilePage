@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 	
 
-	var url = "http://vps227573.ovh.net/u-06.json";
+	var url = "https://s.idsympa.com/u-06.json";
 
 	
 	$.getJSON(url, function(data){
